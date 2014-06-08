@@ -1,0 +1,17 @@
+C:\Users\685501\Desktop\AHD21_A104_Group1\Source Code\ISMS\TCS.InventoryAndSalesManagementSystem.Group1\TCS.ISMS.BLLFactory\bin\Debug\TCS.ISMS.BLLFactory.dll
+C:\Users\685501\Desktop\AHD21_A104_Group1\Source Code\ISMS\TCS.InventoryAndSalesManagementSystem.Group1\TCS.ISMS.BLLFactory\bin\Debug\TCS.ISMS.BLLFactory.pdb
+C:\Users\685501\Desktop\AHD21_A104_Group1\Source Code\ISMS\TCS.InventoryAndSalesManagementSystem.Group1\TCS.ISMS.BLLFactory\bin\Debug\TCS.ISMS.BLL.dll
+C:\Users\685501\Desktop\AHD21_A104_Group1\Source Code\ISMS\TCS.InventoryAndSalesManagementSystem.Group1\TCS.ISMS.BLLFactory\bin\Debug\TCS.ISMS.Types.dll
+C:\Users\685501\Desktop\AHD21_A104_Group1\Source Code\ISMS\TCS.InventoryAndSalesManagementSystem.Group1\TCS.ISMS.BLLFactory\bin\Debug\TCS.ISMS.DALFactory.dll
+C:\Users\685501\Desktop\AHD21_A104_Group1\Source Code\ISMS\TCS.InventoryAndSalesManagementSystem.Group1\TCS.ISMS.BLLFactory\bin\Debug\TCS.ISMS.DAL.dll
+C:\Users\685501\Desktop\AHD21_A104_Group1\Source Code\ISMS\TCS.InventoryAndSalesManagementSystem.Group1\TCS.ISMS.BLLFactory\bin\Debug\TCS.ISMS.BOFactory.dll
+C:\Users\685501\Desktop\AHD21_A104_Group1\Source Code\ISMS\TCS.InventoryAndSalesManagementSystem.Group1\TCS.ISMS.BLLFactory\bin\Debug\TCS.ISMS.BO.dll
+C:\Users\685501\Desktop\AHD21_A104_Group1\Source Code\ISMS\TCS.InventoryAndSalesManagementSystem.Group1\TCS.ISMS.BLLFactory\bin\Debug\TCS.ISMS.BLL.pdb
+C:\Users\685501\Desktop\AHD21_A104_Group1\Source Code\ISMS\TCS.InventoryAndSalesManagementSystem.Group1\TCS.ISMS.BLLFactory\bin\Debug\TCS.ISMS.Types.pdb
+C:\Users\685501\Desktop\AHD21_A104_Group1\Source Code\ISMS\TCS.InventoryAndSalesManagementSystem.Group1\TCS.ISMS.BLLFactory\bin\Debug\TCS.ISMS.DALFactory.pdb
+C:\Users\685501\Desktop\AHD21_A104_Group1\Source Code\ISMS\TCS.InventoryAndSalesManagementSystem.Group1\TCS.ISMS.BLLFactory\bin\Debug\TCS.ISMS.DAL.pdb
+C:\Users\685501\Desktop\AHD21_A104_Group1\Source Code\ISMS\TCS.InventoryAndSalesManagementSystem.Group1\TCS.ISMS.BLLFactory\bin\Debug\TCS.ISMS.BOFactory.pdb
+C:\Users\685501\Desktop\AHD21_A104_Group1\Source Code\ISMS\TCS.InventoryAndSalesManagementSystem.Group1\TCS.ISMS.BLLFactory\bin\Debug\TCS.ISMS.BO.pdb
+C:\Users\685501\Desktop\AHD21_A104_Group1\Source Code\ISMS\TCS.InventoryAndSalesManagementSystem.Group1\TCS.ISMS.BLLFactory\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\685501\Desktop\AHD21_A104_Group1\Source Code\ISMS\TCS.InventoryAndSalesManagementSystem.Group1\TCS.ISMS.BLLFactory\obj\Debug\TCS.ISMS.BLLFactory.dll
+C:\Users\685501\Desktop\AHD21_A104_Group1\Source Code\ISMS\TCS.InventoryAndSalesManagementSystem.Group1\TCS.ISMS.BLLFactory\obj\Debug\TCS.ISMS.BLLFactory.pdb

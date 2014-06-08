@@ -1,0 +1,7 @@
+C:\Users\685501\Desktop\AHD21_A104_Group1\Source Code\ISMS\TCS.InventoryAndSalesManagementSystem.Group1\TCS.ISMS.BO\bin\Debug\TCS.ISMS.BO.dll
+C:\Users\685501\Desktop\AHD21_A104_Group1\Source Code\ISMS\TCS.InventoryAndSalesManagementSystem.Group1\TCS.ISMS.BO\bin\Debug\TCS.ISMS.BO.pdb
+C:\Users\685501\Desktop\AHD21_A104_Group1\Source Code\ISMS\TCS.InventoryAndSalesManagementSystem.Group1\TCS.ISMS.BO\bin\Debug\TCS.ISMS.Types.dll
+C:\Users\685501\Desktop\AHD21_A104_Group1\Source Code\ISMS\TCS.InventoryAndSalesManagementSystem.Group1\TCS.ISMS.BO\bin\Debug\TCS.ISMS.Types.pdb
+C:\Users\685501\Desktop\AHD21_A104_Group1\Source Code\ISMS\TCS.InventoryAndSalesManagementSystem.Group1\TCS.ISMS.BO\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\685501\Desktop\AHD21_A104_Group1\Source Code\ISMS\TCS.InventoryAndSalesManagementSystem.Group1\TCS.ISMS.BO\obj\Debug\TCS.ISMS.BO.dll
+C:\Users\685501\Desktop\AHD21_A104_Group1\Source Code\ISMS\TCS.InventoryAndSalesManagementSystem.Group1\TCS.ISMS.BO\obj\Debug\TCS.ISMS.BO.pdb

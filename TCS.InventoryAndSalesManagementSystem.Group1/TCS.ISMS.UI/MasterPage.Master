@@ -1,0 +1,73 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.Master.cs"
+    Inherits="TCS.ISMS.UI.SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head id="Head1" runat="server">
+    <title></title>
+    <link href="~/Styles/StyleSheet.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+   
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="Form1" runat="server">
+    <div class="page" style="width: 100%; height: 100%;">
+        <div class="header" style="width: 100%; height: 30%;">
+            <div class="LOGO" style="width: 88%; height: 30%; float: left;">
+                <img src="images/Page-logo.png" alt="logo" width="100%" height="200px" />
+            </div>
+            <div class="loginDisplay" style="width: 10%; height: 30%; float: right;">
+                WELCOME NAME:
+                <asp:Label ID="lblUserName" runat="server"></asp:Label><br />
+                ROLE TAG :
+                <asp:Label ID="lblRolrTag" runat="server"></asp:Label><br />
+                
+                <asp:ImageButton ID="ImgBtnLogout" runat="server" OnClick="Method_Logout" 
+                    ImageUrl="images\imagesCAMPRCMF.jpg" Height="70px" />
+            </div>
+            <!--  <asp:LoginView ID="HeadLoginView" runat="server" EnableViewState="false">
+                    <AnonymousTemplate>
+                        [ <a href="~/Account/Login.aspx" ID="HeadLoginStatus" runat="server">Log In</a> ]
+                    </AnonymousTemplate>
+                    <LoggedInTemplate>
+                        Welcome <span class="bold"><asp:LoginName ID="HeadLoginName" runat="server" /></span>!
+                        [ <asp:LoginStatus ID="HeadLoginStatus" runat="server" LogoutAction="Redirect" LogoutText="Log Out" LogoutPageUrl="~/"/> ]
+                    </LoggedInTemplate>
+                </asp:LoginView>-->
+        </div>
+        <div class="clear hideSkiplink">
+            <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false"
+                IncludeStyleBlock="false" Orientation="Horizontal">
+                <Items>
+                    <asp:MenuItem NavigateUrl="~/HomePage.aspx" Text="Home" />
+                    <asp:MenuItem NavigateUrl="~/About Us2.aspx" Text="About Us" />
+                    <asp:MenuItem NavigateUrl="~/ContactUs.aspx" Text="Contact Us" />
+                    <asp:MenuItem NavigateUrl="~/EmployeeViewProfile.aspx" Text="View Profile" />
+                </Items>
+            </asp:Menu>
+        </div>
+        <div class = "mainBody" style = "width : 100%; height : 70%;">
+        <div class = "leftDivision" style = "width : 20%; height : 70%; float : left; background : #007000;">
+         <asp:Menu ID="DynamicSideMenu" runat="server" CssClass="menu1" Width="100px" EnableViewState="false" DynamicHorizontalOffset = "0" IncludeStyleBlock="false" Orientation="vertical">
+           
+           <Items>
+                   
+               
+                    </Items>
+          
+          </asp:Menu>
+        </div>
+        <div class="main">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+            
+        </div>
+        
+        <div class ="footer">
+        Copyright @ TCS Group 1
+        </div>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E88BCDF5-60F3-4C41-90C9-E2451B5DDBD6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TCS.ISMS.Types</RootNamespace>
+    <AssemblyName>TCS.ISMS.Types</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="IAdminBLL.cs" />
+    <Compile Include="IAdminDAL.cs" />
+    <Compile Include="IBillDetails.cs" />
+    <Compile Include="ICategoryWiseSale.cs" />
+    <Compile Include="ICustomer.cs" />
+    <Compile Include="ICustomerBill.cs" />
+    <Compile Include="IDateWiseSale.cs" />
+    <Compile Include="IEmployee.cs" />
+    <Compile Include="IHRLR.cs" />
+    <Compile Include="IIMCrossCheck.cs" />
+    <Compile Include="IInventoryManagerBLL.cs" />
+    <Compile Include="IInventoryManagerDAL.cs" />
+    <Compile Include="IItemCategory.cs" />
+    <Compile Include="IItem.cs" />
+    <Compile Include="ILogin.cs" />
+    <Compile Include="ILogon.cs" />
+    <Compile Include="IMenu.cs" />
+    <Compile Include="Iorder.cs" />
+    <Compile Include="IOrderedItems.cs" />
+    <Compile Include="IReportCategoryWise.cs" />
+    <Compile Include="IReportPriceWise.cs" />
+    <Compile Include="IReturnedItems.cs" />
+    <Compile Include="IRole.cs" />
+    <Compile Include="ISalesManager.cs" />
+    <Compile Include="ISalesManagerBLL.cs" />
+    <Compile Include="ISalesPersonBLL.cs" />
+    <Compile Include="ISalesPersonDAL.cs" />
+    <Compile Include="IVendor.cs" />
+    <Compile Include="IViewMoneyTransaction.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\TCS.ISMS.Types.dll" />
+    <Content Include="bin\Debug\TCS.ISMS.Types.pdb" />
+    <Content Include="obj\Debug\TCS.ISMS.Types.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\TCS.ISMS.Types.dll" />
+    <Content Include="obj\Debug\TCS.ISMS.Types.pdb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="obj\Debug\TempPE\" />
+    <Folder Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
